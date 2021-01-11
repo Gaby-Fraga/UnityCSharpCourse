@@ -122,6 +122,26 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &457845060 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3648508355595694618, guid: fd8de220c29ecc84183230ad06ffdf27,
+    type: 3}
+  m_PrefabInstance: {fileID: 3978570854032082572}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &457845065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457845060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 93a73738b2e48fc499f697084c7b1d4a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movementVector: {x: 0, y: 0, z: 0}
+  movementFactor: 0
 --- !u!108 &705507994 stripped
 Light:
   m_CorrespondingSourceObject: {fileID: 9081610867413659104, guid: dbfd47f958feb464a80d16eec14205e5,
@@ -278,11 +298,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6003755444175946195, guid: 58e312f41c64193498e3c6fa30a96e11,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 1.38
       objectReference: {fileID: 0}
     - target: {fileID: 8619734244463865185, guid: 58e312f41c64193498e3c6fa30a96e11,
         type: 3}
@@ -676,7 +691,7 @@ PrefabInstance:
     - target: {fileID: 1074197410570653510, guid: fd8de220c29ecc84183230ad06ffdf27,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.18
+      value: -10.7
       objectReference: {fileID: 0}
     - target: {fileID: 1074197410570653510, guid: fd8de220c29ecc84183230ad06ffdf27,
         type: 3}
@@ -728,21 +743,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 1074197410570653510, guid: fd8de220c29ecc84183230ad06ffdf27,
-        type: 3}
-      propertyPath: m_LocalScale.y
-      value: 13.891912
-      objectReference: {fileID: 0}
-    - target: {fileID: 1074197410570653510, guid: fd8de220c29ecc84183230ad06ffdf27,
-        type: 3}
-      propertyPath: m_LocalScale.x
-      value: 30.609966
-      objectReference: {fileID: 0}
-    - target: {fileID: 1993911923619282029, guid: fd8de220c29ecc84183230ad06ffdf27,
-        type: 3}
-      propertyPath: m_Materials.Array.data[0]
-      value: 
-      objectReference: {fileID: 2100000, guid: ed4dab53437cd6e4eb20ca6f3a6a23cf, type: 2}
     - target: {fileID: 3648508355595694618, guid: fd8de220c29ecc84183230ad06ffdf27,
         type: 3}
       propertyPath: m_Name
