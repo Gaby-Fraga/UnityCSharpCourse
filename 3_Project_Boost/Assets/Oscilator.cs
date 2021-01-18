@@ -16,7 +16,7 @@ public class Oscilator : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        movementVector.x = 30;
+        movementVector.x = 55;
         startingPos = transform.position;   
     }
 
